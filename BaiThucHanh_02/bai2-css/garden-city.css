@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: white;
+ }
+ .form input::placeholder{color: rgb(250, 250, 250);}
+ 
+ :root {
+    --color--green-chuoi: #49A333;
+    --color--green-ma: #2D8C15;
+    --color--yellow-nhat: #CED086;
+    --color--yellow-dam: #C5D301;
+    --color--yellow-green: #678B37;
+    --color--green-reu: #81AF53;
+    --color--yellow-hoinhat: #DCE085;
+    --color--green-dam: #2A6E01;
+    --content--widht: 100%;
+ }
+ 
+ body {
+    background-image: url('/BaiThucHanh_02/images/head-background.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 990px;
+ }
+ 
+ .content {
+    position: relative;
+    width: var(--content--widht);
+ }
+ 
+ #hotline {
+    font-size: 25px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    background-color: var(--color--green-ma);
+    display: flex;
+    padding: 12px 20px 10px 20px;
+    border-radius: 5px;
+    color: white;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 1000px;
+ }
+ 
+ .logo-img {
+    position: absolute;
+    top: -45px;
+    left: 313px;
+ }
+ 
+ p {
+    color: white;
+ }
+ 
+ .form {
+    background-color: var(--color--yellow-green);
+    display: flex;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 17px;
+    border: 8px solid var(--color--yellow-nhat);
+    margin-top: 200px;
+    margin-left: 313px;
+ 
+ }
+ 
+ .text-big {
+    font-size: 40px;
+    text-align: inherit;
+ }
+ 
+ .text-small {
+    font-size: 20px;
+    font-style: italic;
+ }
+ 
+ .form-input {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+ }
+ 
+ .full-name {
+    background-color: var(--color--yellow-green);
+    color: white;
+    margin: 10px;
+ }
+ 
+ .phone {
+    background-color: var(--color--yellow-green);
+    margin: 10px;
+ }
+ 
+ .email {
+    background-color: var(--color--yellow-green);
+    margin: 10px;
+ }
+ 
+ .submit {
+    background-color: var(--color--yellow-dam);
+    padding: 20px;
+    width: 210px;
+    margin: auto;
+ }
+ 
+ .container {
+    width: 1000px;
+    display: grid;
+    row-gap: 20px;
+    grid-template-rows: 320px 320px;
+    margin: 190px auto 0 auto;
+ }
+ 
+ .container h2 {
+    color: var(--color--green-ma);
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+ }
+ 
+ .container p {
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: justify;
+ }
+ 
+ .container-top {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 500px 480px;
+ }
+ 
+ .container-top .top-left img {
+    border: 2px var(--color--green-chuoi);
+    border-style: dashed;
+    border-radius: 15px;
+ }
+ 
+ .container-bottom {
+    display: grid;
+    grid-template-columns: 500px 480px;
+    column-gap: 20px;
+ }
+ 
+ .container-bottom .top-right img {
+    border: 2px var(--color--green-chuoi);
+    border-style: dashed;
+    border-radius: 15px;
+    width: 480px;
+ }
+ 
+ .footer {
+    display: grid;
+    margin: 15px auto 0 auto;
+ }
+ 
+ .footer-top {
+    box-sizing: none;
+    display: grid;
+    column-gap: 25px;
+    grid-template-rows: 230px;
+    grid-template-columns: 690px 295px;
+    background-color: var(--color--green-reu);
+    padding-left: 310px;
+    padding-top: 20px;
+ 
+ }
+ 
+ .footer-left {
+    color: white;
+    text-align: center;
+ 
+ }
+ 
+ .text-footer {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: start;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+ }
+ 
+ .text-center-1 {
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 5px;
+ }
+ 
+ .footer-bottom {
+    background-color: var(--color--yellow-hoinhat);
+ }
+ 
+ .form-1 {
+    box-sizing: none;
+    display: grid;
+    grid-template-rows: 50px 25px 25px;
+    row-gap: 20px;
+    padding-left: 310px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+ }
+ 
+ .text-bottom {
+    display: grid;
+    grid-template-columns: 1000px;
+ }
+ 
+ .text-bottom {
+    color: var(--color--green-dam);
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+ }
+ 
+ .bottom-left {
+    display: grid;
+    column-gap: 40px;
+    row-gap: 20px;
+    grid-template-columns: 480px 480px;
+ 
+ }
+ 
+ .bottom-right {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: 480px 480px;
+ }
+ .footer-bottom input{
+   color: black;
+ }
+ .sub {
+   color: black;
+   background-color: var(--color--green-dam);
+ }

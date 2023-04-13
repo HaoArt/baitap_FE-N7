@@ -50,7 +50,7 @@
  .logo-img {
     position: absolute;
     top: -45px;
-    left: 313px;
+    left: 253px;
  }
  
  p {
@@ -70,7 +70,7 @@
     padding: 20px 17px;
     border: 8px solid var(--color--yellow-nhat);
     margin-top: 200px;
-    margin-left: 313px;
+    margin-left: 233px;
  
  }
  
@@ -120,7 +120,7 @@
     display: grid;
     row-gap: 20px;
     grid-template-rows: 320px 320px;
-    margin: 190px auto 0 auto;
+    margin: 90px auto 0 auto;
  }
  
  .container h2 {
@@ -174,7 +174,7 @@
     grid-template-rows: 230px;
     grid-template-columns: 690px 295px;
     background-color: var(--color--green-reu);
-    padding-left: 310px;
+    padding-left: 230px;
     padding-top: 20px;
  
  }
@@ -208,7 +208,7 @@
     display: grid;
     grid-template-rows: 50px 25px 25px;
     row-gap: 20px;
-    padding-left: 310px;
+    padding-left: 230px;
     padding-top: 20px;
     margin-bottom: 20px;
  }

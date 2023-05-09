@@ -1,0 +1,107 @@
+.b-tieu-de ul li{    
+    list-style: none;
+    }
+    .b-tieu-de {     
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .b-tieu-de .Tieu-de {
+        display: flex;
+        justify-content:space-between;
+        margin-left:20px;
+        font-size: 30px;
+        margin-right:10%;
+    }
+    .b-tieu-de .Tieu-de .List{
+        margin-right: 30px;
+    }
+    .banner img {
+        width: 100%;
+    }
+    .body {
+        display: flex;
+        justify-content: center;
+    }
+    .body .item img{
+        height: 240px;
+        width: 240px;
+        width: 100%;
+    }
+    .body .item{
+      position:relative;
+    }
+    .body .item p{
+        position: absolute;
+        font-size: 1rem;
+        bottom: 20px;
+        left: 100px;
+    }
+    .body .item .font2{
+        position: absolute;
+        bottom: 20px;
+        left: 110px;
+    }
+    .body .item .font3{
+        position: absolute;
+        bottom: 20px;
+        left: 120px;
+    }
+
+    .minh-hoa .item{
+        position: relative;
+
+    }
+    .paf {
+        font-size: 30px;
+        margin-left: 13rem;
+    }
+    .minh-hoa .item img{
+        height: 300px;
+        width: 300px;
+        width: 100%;
+    }
+    .minh-hoa{
+        display: flex;
+        justify-content: center;
+    } 
+       .minh-hoa .item p{
+        position: absolute;
+        bottom: 10px;
+        left: 30%;
+        color: rgb(255, 255, 255);
+        text-decoration: dashed;
+        font-size: 30px;
+    }
+    .support{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        background-color: yellow;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .support .noi-dung1{
+        max-width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 60px;
+        padding-left: 100px;
+    }
+    .support .noi-dung2{
+        max-width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content:right;
+        padding-left: 60px;
+    }
+    .support .noi-dung3{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+      box-sizing: border-box;
+      padding-right: 200px;
+    }

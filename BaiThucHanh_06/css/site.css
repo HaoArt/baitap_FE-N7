@@ -1,0 +1,333 @@
+* {
+    font-size: 16px;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --container-width: 100%;
+    --section-width: 980px;
+    --color-darkblue: #112141;
+    --color-organge: #ba9066;
+    --color-darkred: #b70f0b;
+    --color-gray: #646464;
+}
+
+body {
+    background-image: url('/BaiThucHanh6/images/bg-top.jpg'), url('/BaiThucHanh6/images/bg-bottom.jpg');
+    background-position: top center, bottom center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: var(--container-width);
+    position: relative;
+}
+
+section {
+    position: relative;
+    width: var(--section-width);
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu li:hover {
+    background-color: rgb(120, 248, 248);
+    font-style: italic;
+}
+
+#header #menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 13px;
+    padding-right: 50px;
+}
+
+#menu li a {
+    color: white
+}
+
+#menu li {
+    padding-left: 20px;
+    border-left: 1px solid white;
+}
+
+#menu li:first-child {
+    border: none;
+}
+
+.space {
+    width: 130px;
+    height: 18px;
+}
+
+#section-1 {
+    margin-top: 400px;
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 240px 490px 250px;
+    background-color: var(--color-darkblue);
+    border: 2px solid var(--color-darkblue);
+}
+
+#long-den {
+    position: absolute;
+    left: -80px;
+}
+
+.left-buttons {
+    display: grid;
+    grid-template-rows: 125px 62px 62px;
+    row-gap: 3px;
+}
+
+#tai-game {
+    background-image: url('/BaiThucHanh6/images/btn_taigame.jpg');
+}
+
+#dang-ky,
+#nap-the {
+    background-image: url('/BaiThucHanh6/images/buttons-left.png');
+}
+
+#dang-ky {
+    background-position: 0 -2px;
+}
+
+#nap-the {
+    background-position: 0 -66px;
+}
+
+#giang-ho,
+#ho-tro,
+#nap-vang,
+#nap-vip {
+    background-image: url('/BaiThucHanh6/images/buttons-right.png');
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
+
+#hotline {
+    background-image: url('/BaiThucHanh6/images/hotline.png');
+    background-repeat: no-repeat;
+    grid-column: 1/3;
+}
+
+.right-buttons {
+    display: grid;
+    grid-template-columns: 113px auto;
+    grid-template-rows: 110px 110px 30px;
+    row-gap: 2px;
+}
+
+#giang-ho {
+    background-position: 0 -2px;
+}
+
+#ho-tro {
+    background-position: -115px -2px;
+}
+
+#nap-vang {
+    background-position: 0 -115px;
+}
+
+#nap-vip {
+    background-position: -115px -115px;
+}
+
+#hotline {
+    background-position: 0 3px;
+}
+
+#section-2 {
+    display: grid;
+    grid-template-columns: 740px 230px;
+    column-gap: 5px;
+    row-gap: 10px;
+}
+
+#section-2-top-buttons {
+    margin-top: 5px;
+    display: grid;
+    grid-template-rows: 84px;
+    grid-template-columns: 247px 247px 247px;
+    row-gap: 10px;
+}
+
+#cuu-am-lenh,
+#vinh-danh-vip,
+#nhap-vip-code {
+    background-image: url('/BaiThucHanh6/images/cuuamlenh-vip-giftcode.png');
+}
+
+#cuu-am-lenh {
+    background-position: 0 0;
+}
+
+#vinh-danh-vip {
+    background-position: -247px 0;
+}
+
+#nhap-vip-code {
+    background-position: -494px 0;
+}
+
+.post {
+    display: grid;
+    grid-template-rows: 50px 200px 200px 130px;
+    row-gap: 10px;
+    margin-top: 5px;
+    border-bottom: 7px solid var(--color-darkblue);
+    border-right: 7px solid var(--color-darkblue);
+    border-left: 7px solid var(--color-darkblue);
+    box-sizing: border-box;
+}
+
+#section-2-right-buttons {
+    display: grid;
+    margin-top: 5px;
+    grid-template-rows: 55px 55px 55px 55px 55px;
+    row-gap: 5px;
+    padding: 5px;
+    background-color: #112141;
+}
+
+#bao-dien,
+#mon-phai,
+#tan-thu,
+#vo-hoc,
+#pvc-pet {
+    background-image: url('/BaiThucHanh6/images/links-right.png');
+}
+
+#bao-dien {
+    background-position: -2px 5px;
+}
+
+#mon-phai {
+    background-position: -2px -57px;
+}
+
+#tan-thu {
+    background-position: -2px -118px;
+}
+
+#vo-hoc {
+    background-position: -2px -170px;
+}
+
+#pvc-pet {
+    background-position: -2px -224px;
+}
+
+.post-header {
+    background-image: url('/BaiThucHanh6/images/news-header-bg.png');
+}
+
+.post-header ul {
+    list-style: none;
+}
+.post-header a{
+    color: white;
+}
+
+.post-category {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 16px;
+    margin-left: -20px;
+    margin-right: 150px;
+}
+
+.post-body {
+    display: grid;
+    grid-template-rows: 150px 150px 150px 50px;
+    margin-left: 20px;
+}
+
+.post-item h1 {
+    color: #e40a06;
+    font-weight: bold;
+    border-left: 7px solid #e40a06;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.post-item p {
+    color: #4d2700;
+    font-size: 16px;
+}
+
+.post-item img {
+    border: 6px solid rgb(153, 134, 11);
+    height: 140px;
+    width: 145px;
+}
+
+.post-item {
+    display: grid;
+    grid-template-columns: 150px 490px;
+    column-gap: 10px;
+}
+
+.small {
+    font-style: italic;
+}
+
+.post-links {
+    margin-top: 25px;
+    margin-left: 450px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    text-align: center;
+    column-gap: 10px;
+}
+
+.post-links a:hover {
+    background-color: rgb(112, 145, 245);
+    cursor: grab;
+}
+
+.post-links a {
+    color: #9f9f9f;
+    background-color: var(--color-darkblue);
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 12px;
+    border: 5px solid rgb(198, 195, 195);
+}
+
+#footer {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 180px 660px;
+}
+
+#footer p,
+a {
+    color: black;
+    text-align: center;
+}
+
+#footer-info {
+    margin-top: 100px;
+}
+
+#footer-logo {
+    margin-top: 100px;
+
+}

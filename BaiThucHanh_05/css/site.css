@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.container_header-of-page{
+    margin: 0 auto;
+    width: 80%;
+display: flex;
+    justify-content: space-between;
+}
+.container_header-of-page #logo{
+    height: 100px;
+    width: 100px;
+}
+.container_header-of-page #logo img{
+    width: 100%;
+    height: 100%;
+}
+.container-full{
+
+}
+.bg-orange{
+
+}
+.container-menu_bar{
+
+}
+.container_of-page{
+
+}
+.content-left{
+
+}
+.row{
+
+}
+.column-2{
+
+}
+.column-1{
+
+}
+.content-right{
+
+}
+.column-3{
+
+}
+.section-title{
+
+}
+.container-ful{
+
+}
+.bg-black{
+
+}
+.container{
+
+}

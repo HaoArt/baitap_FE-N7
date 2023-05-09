@@ -1,0 +1,13 @@
+- name: Live Preview Action
+  # You may pin to the exact commit or the version.
+  # uses: sharadcodes/live-preview-action@c54cd3cb3eb706435dc16661ea35356261835d5d
+  uses: sharadcodes/live-preview-action@v1.0
+  with:
+    # The port at which the server is running
+    port: 
+    # Duration in minutes for the server to be exposed
+    minutes: # optional, default is 5
+    # Command for building or starting server or installing packages and then starting server, use && to run multiple commands
+    command: 
+    # Discord webhook url
+    discord_webhook_url: 
